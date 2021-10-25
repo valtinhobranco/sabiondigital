@@ -15,9 +15,9 @@ Um detalhe é que todos os arquivos dentro da pasta dist está minificada e as i
 
 ............................. Detalhes ............................. 
 
-Para facilitar, criei um botão no canto inferioir direito para que vc possa voltar ao topo da pagina.
+Para facilitar, criei um botão no canto inferio  direito para que possa voltar ao topo da pagina.
 
-A parte criamos expreriências da navegação está funcionando.
+A parte criamos experiências da navegação está funcionando.
 
 Dei uma leve estilizada na barra lateral para abrilhantar um pouco mais a página.
 
