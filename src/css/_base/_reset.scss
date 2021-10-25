@@ -27,13 +27,12 @@ p,h1,h2,h3,h4,h5,h6{
     height: 10px;
     }
      
-    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+    
     ::-webkit-scrollbar-track {
     background:$purple;
     }
      
-    /* aqui é a alça da barra, que demonstra a altura que você está na página
-    estou colocando uma cor azul clara nela*/
+
     ::-webkit-scrollbar-thumb {
     background: linear-gradient(to bottom, $yellow 0%,$yellow 50%,$purple 100%);
     }

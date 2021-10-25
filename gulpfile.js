@@ -46,16 +46,6 @@ function images() {
      
 }
 
-
-
-exports.default = function () {
-    watch('src/pages/**/*.html', html);
-    watch('src/js/*.js', javascript);
-    watch(['src/css/*.scss', 'src/css/**/*.scss'], minifyScss);
-    watch(['src/images/*.jpg', 'src/images/*.png', 'src/images/**/*.jpg', 'src/images/**/*.png'], images);
-   
-}
-
-// exports.default = parallel(html, javascript, minifyScss, images)
+exports.default = parallel(html, javascript, minifyScss, images)
 
    
