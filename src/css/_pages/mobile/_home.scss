@@ -1,0 +1,360 @@
+@media screen and (max-width:768px){
+    main{
+        
+        //todo .........................HOME.........................
+        
+        .home{
+            
+            width:100%;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            
+            background: $white;
+            
+            h1{
+                width: 150px;
+                height: auto;
+                background:url(/dist/images/logo.png) center no-repeat;
+                text-indent: -9999px;
+                background-size: contain;
+            }
+            
+            h2{
+                font-size: 35px;
+            }
+            p{
+                font-size: 35px;
+            }
+            
+        }
+        
+        //.........................About Us.........................
+        
+        .about-us{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 100%;
+            height:auto;
+            background: $white;
+            position: relative;
+            
+            .container{
+                
+                flex-direction: column;
+                margin: 50px 0;
+                
+                .content{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    &:nth-child(2){
+                        width: 80%;
+                    }
+                    
+                    h2{
+                        font-size: 35px;
+                        text-align: center;
+                    }
+                    h3{
+                        font-size: 22px;
+                        font-weight: bold;
+                        color:$purple;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        span{
+                            background:$yellow;
+                            width: 40px;
+                            height: 5px;
+                            display: block;
+                            border-radius: 10px;
+                            margin-top: 10px;
+                        }
+                    }
+                    p{
+                        text-align: center;
+                        margin: 10px 0 100px;
+                        br{
+                            display: none;
+                        }
+                    }
+                    
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+            
+        }
+        
+        
+        // .........................About 360.........................
+        
+        .about-360{
+            display: flex;
+            width: 100%;
+            height:auto;
+            margin: 50px 0;
+            
+            &:before{
+                bottom:0px;
+            }
+            
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+                h3{
+                    font-size: 22px;
+                }
+                .content{
+                    width: 100%;
+                    margin-top: 50px;
+                    
+                    article {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        margin-bottom: 0px;
+                        img{
+                            height: 60% ;
+                            width: auto;
+                        }
+                        h3{
+                            font-size: 18px;
+                        }
+                    }
+                    
+                }
+            }
+            
+        }
+        
+        // .........................Create Experiences.........................
+        
+        .experiences{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height:auto;
+            background: $white;
+            position: relative;
+            margin: 50px 0 60px;
+            
+            .container{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                
+                h2{
+                    font-size: 35px;
+                    text-align: center;
+                }
+                
+                .box-navegation{
+                    margin: 75px 0 30px;
+                }
+                
+                .box-grid{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .column{
+                        
+                        width: 50%;
+                        padding: 0 5px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        .box{
+                            width: 100%;
+                            height: auto;
+                            border-radius: 10px;
+                            margin-top: 10px;
+                            transition: .3s;
+                            
+                            &.box-sm{
+                                height: 110px;
+                                
+                            }
+                            &.box-md{
+                                height: 118px;
+                                
+                            }
+                            
+                            &.box-big{
+                                height: 126px;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+        // .........................Contact.........................
+        .contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height:auto;
+            background: $purple;
+            padding: 50px 0;
+            
+            .container{
+                display: flex;
+               flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .content{
+                    width: 100%;
+                   margin: 0;
+                    &:nth-child(2){
+                        display: flex;
+                        width: 100%;
+                        flex-direction: column;
+                        background:$white;
+                        padding:20px;
+                        border-radius: 10px ;
+                        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+                       
+                        margin: 0;
+                        
+                    }
+                    h2{
+                        color: $yellow;
+                        font-size: 44px;
+                        line-height: 55px;
+                        font-weight: bold;
+                        text-align: right;
+                        font-style: italic;
+                        
+                        
+                    }
+                    p{
+                        color: $white;
+                        font-size: 16px;
+                        line-height: 25px;
+                        text-align: right;
+                        font-style: italic;
+                        margin: 20px 0 40px;
+                    }
+                    
+                    form{
+                       
+                        
+                        label{
+                            font-size: 14px;
+                            margin-bottom: 5px;
+                            
+                        }
+                        input{
+                            padding: 10px;
+                            margin: 0px 0 15px;
+                            border-radius: 5px;
+                            border: 0;
+                            outline:none;
+                            border: 1px solid $grey;
+                            height: 40px;
+                            
+                            &[type="button"]{
+                                padding: 10px 20px;
+                                height: unset;
+                                width: unset;
+                                font-size: 16px;
+                                &:hover{
+                                    background:$purple;
+                                    color:$white;
+                                }
+                            }
+                        }
+                        
+                        textarea {
+                            padding: 10px  ;
+                            margin: 0px 0 15px;
+                            border-radius: 5px;
+                            outline:none;
+                        }
+                        
+                        
+                    }
+                    
+                    iframe{
+                        
+                        width: 400px;
+                        height: 400px;
+                        border: 0;
+                        margin: 10px 0 0;
+                    }
+                }
+            }
+        }
+        
+         // .........................Footer.........................
+
+    .footer{
+        
+        width:100%;
+        height: 400px;;
+        display: flex;
+      
+
+    }
+        
+    }
+
+    .back-top-site{
+        background: $purple;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+        z-index: 9999999;
+        transition: .3s;
+    
+       
+        &:before{
+            transition: .3s;
+            content: '<';
+            color: $white;
+           font-size: 20px;
+           font-weight: bold;
+            border-radius: 50%;
+            transform: rotate(90deg) ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        &:hover{
+           
+            background: $purple;
+            &:before{
+               
+                color: $white;
+            }
+        }
+    }
+}
+
